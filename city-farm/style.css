@@ -1,0 +1,303 @@
+#wrapper {
+    /* border-right: 1px solid rgb(255, 255, 255);
+    border-left: 1px solid rgb(255, 255, 255); */
+	width: 900px;
+	margin: 0px auto;
+    padding: 20px;
+    ;
+    height: 1100px;
+}
+body {
+    background-image: url(pic/ferma.jpg);
+
+    font: 11pt Arial, Helvetica, sans-serif; /* Рубленый шрифт текста */
+    margin: 0; /* Отступы на странице */
+   }
+#light {
+    width: 100%;
+    height: 100%;
+    opacity: 80%;
+    background-color: white;
+    position: absolute;
+}
+h1 {
+    font-size: 36px; /* Размер шрифта */
+    margin: 0; /* Убираем отступы */
+    color: rgb(255, 255, 255); /* Цвет текста */
+    text-align: center;
+    font-variant: small-caps;
+    font-family: "BOOK ANTIQUA";
+   }
+#header h1 {
+    font-size: 50px;
+}
+h2 {
+    margin-top: 0; /* Убираем отступ сверху */
+    color: rgb(43, 61, 43);
+    text-align: center;
+    font-family: "BOOK ANTIQUA";
+   }
+h3 {
+    margin-top: 0; /* Убираем отступ сверху */
+    color: rgb(43, 61, 43);
+    font-family: "BOOK ANTIQUA";
+   }
+h4 {
+    margin-top: 0; /* Убираем отступ сверху */
+    color: rgb(43, 61, 43);
+    font-family: "BOOK ANTIQUA";
+    font-variant: small-caps;
+    font-size: larger;
+    border-radius: 5px;
+     border: 1px solid rgb(202, 202, 202);
+    padding: 5px 5px 5px 5px;
+    margin: 10px 0px 10px 0px;
+   }
+#header { 
+  
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background: rgb(80, 99, 44);
+    padding: 10px; /* Поля вокруг текста */
+   }
+
+#sidebar {
+    /* border: 1px solid #333; */
+    background-color: white;
+    padding: 5px; 
+    border-radius: 5px;
+    /* border: 1px solid rgb(202, 202, 202); */
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    transform: translate(-350px,-100px);
+    background: rgba(38,34,34,0.6000000238418579);
+    opacity: 1;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+   }
+#sidebar2 { 
+    background-color: white;
+    /* border: 1px solid #333;  */
+    padding: 5px; 
+    border-radius: 5px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    transform: translate(450px,-470px);
+    background: rgba(38,34,34,0.6000000238418579);
+    opacity: 1;
+  border-top-left-radius: 53px;
+  border-top-right-radius: 53px;
+  border-bottom-left-radius: 53px;
+  border-bottom-right-radius: 53px;
+  overflow: hidden;
+}
+#content {
+    padding: 5px; 
+    background-color: white;
+    /* border: 1px solid #333; */
+    border-radius: 5px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    transform: translate(-290px,20px);
+    background: rgba(38,34,34,0.6000000238418579);
+    opacity: 1;
+  border-top-left-radius: 53px;
+  border-top-right-radius: 53px;
+  border-bottom-left-radius: 53px;
+  border-bottom-right-radius: 53px;
+  overflow: hidden;
+   }
+#footer {
+    border-top: 1px solid rgb(255, 255, 255); /* Нижний блок */
+    background: rgb(80, 99, 44); /* Цвет фона */
+    padding: 20px; /* Поля вокруг текста */
+    color: #fff; /* Цвет текста */
+    clear: left; /* Отменяем действие float */
+    font-style: italic;
+    text-align: center;
+    font-size: small;
+   }
+#footer p {
+    opacity: 20%;
+}
+
+#info {
+    margin: 20px 10px 20px 10px;
+    padding: 15px 25px 5px 5px; 
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: white;
+    /* border: 1px solid rgb(202, 202, 202);  */
+     background: rgba(38,34,34,0.6000000238418579);
+    opacity: 1;
+  border-top-left-radius: 53px;
+  border-top-right-radius: 53px;
+  border-bottom-left-radius: 53px;
+  border-bottom-right-radius: 53px;
+  overflow: hidden;
+   }
+#foto {
+    margin: 0px 0px 20px 0px;
+    display: grid;  
+    grid-template-columns: 1fr 1fr ;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid rgb(202, 202, 202);  
+}
+#svet {
+
+    /* width: auto; */
+    height: auto;
+ /* border: 1px solid rgb(202, 202, 202);  */
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+#poliv {
+    /* width: 50%; */
+    height: auto;
+    /* border: 1px solid rgb(202, 202, 202);  */
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.krug {
+    margin-left: 15px;
+    border: 1px solid rgb(202, 202, 202); 
+    height: 25px;
+    width: 70px;
+    border-radius: 5px;
+}
+
+h3 {
+    margin-left: 10px;
+}
+
+#all {
+    display: grid; 
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+    margin: 20px 10px 20px 10px;
+}
+#datchiki 
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.datchik {
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgb(165, 165, 165); 
+    border-radius: 50%;
+}
+.dat {
+    text-align: center;
+    width: 150px;
+    height: 210px;
+    /* border: 1px solid rgb(202, 202, 202);  */
+}
+.video {
+    color:white;
+}
+.urov {
+    text-align: left;
+    color: white;
+}
+#nab {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    /* border: 1px solid rgb(245, 245, 245);  */
+    
+}
+#kamera {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    width: 95%;
+    height: 380px;
+    border: 1px solid rgb(148, 148, 148); 
+    border-radius: 10px;
+}
+#time {
+margin-left: 15PX;
+    width: 150px;
+    height: 50px;
+    border: 1px solid rgb(214, 214, 214); 
+    border-radius: 10px;
+    transform: translate(250px,0px);
+
+}
+#uprav {
+    margin: 0px 15px 0px 15px;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    /* border: 1px solid rgb(245, 245, 245);  */
+    
+}
+input {
+    width: 100%;
+}
+.aaa {
+    margin-top: 30px;
+    width: 100%;
+}
+.razgran {
+    display: flex;
+	justify-content: space-between;
+padding:  10px 15px 0px 15px;
+}
+.number {
+    padding-top: 10px;
+    text-align: center;
+    border: 1px solid rgb(214, 214, 214); 
+    border-radius: 50%;
+    width: 40px;
+    height: 30px;
+    font-size: larger;
+}
+#info2 {
+    margin: 20px 10px 20px 10px;
+    padding: 20px 20px 20px 20px; 
+    border-radius: 5px;
+    background-color: whi;
+    /* border: 1px solid rgb(202, 202, 202);  */
+    transform: translate(450px,-400px)
+    
+
+   }
+/* #koment {
+    width: auto;
+    height: 200px;
+    border-radius: 5px;
+    border: 1px solid rgb(202, 202, 202); 
+
+} */
+textarea { 
+    margin-top: 15px;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(202, 202, 202); 
+}
+#infor{color: white;}
+h3{color: white;}
+h2{color: white
+;}
+h4{color: white;}
+h1{color: white;}
+#time{color: white;}

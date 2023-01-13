@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Сити-Ферма Легенда</title>
+  <script>
+    function digitalClock() {
+     var date = new Date();
+     var hours = date.getHours();
+     var minutes = date.getMinutes();
+     var seconds = date.getSeconds();
+        //* добавление ведущих нулей */
+       if (hours < 10) hours = "0" + hours;
+       if (minutes < 10) minutes = "0" + minutes;
+       if (seconds < 10) seconds = "0" + seconds;
+         document.getElementById("id_clock").innerHTML = hours + ":" + minutes + ":" + seconds;
+         setTimeout("digitalClock()", 1000);
+    }
+   </script>
+ </head>
+
+
+ <body>
+  <div id="header"><h1>Сити-Ферма "Легенда"</h1></div>
+
+<div id="wrapper">
+
+<div id="hight">
+  <h2 id="infor"> Информация по состоянию фермы</h2>
+  <div id="info">
+    <div id="foto">
+      <div id="svet">
+        <h3>Свет</h3>
+        
+      </div>
+      <div id="poliv">
+        <h3>Полив</h3>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="all">
+
+
+  <div id="sidebar">
+    <h2>Показания датчиков</h2>
+     <div id="datchiki">
+      <div id="dati">
+      <div class="dat">
+      <div class="datchik">
+      </div>
+      <h4>Влажность</h4>
+    </div>
+    <div class="dat">
+      <div class="datchik">
+      </div>
+      <h4>Температура</h4>
+    </div>
+    <div class="dat">
+      <div class="datchik">
+      </div>
+      <h4>С02</h4>
+    </div>
+    <div class="dat">
+      <div class="datchik">
+      </div>
+      <h4>Уровень Влажности</h4>
+    </div>
+  </div>
+     </div>
+
+  </div>
+  <div id="content">
+    <h1 class="video">Видеонаблюдение </h1>
+    <div id="nab">
+      <div id="kamera"></div>
+    </div>
+  <div id="time"> <div id="id_clock"></div>
+  <script>digitalClock();</script></div>  
+</div>
+  <div id="sidebar2">
+    <h1 class="video">Управление</h1>
+    <div id="uprav">
+    <div class="aaa">
+      <h2 class="urov">Уровень Освещения</h2>
+      <INput type="range"></INput>
+      <div class="razgran">
+        <div class="number">1</div>
+        <div class="number">2</div>
+        <div class="number">3</div>
+      </div>
+      <div class="aaa">
+        <h2 class="urov">Полив</h2>
+        <INput type="range"></INput>
+        <div class="razgran">
+          <div class="number">1</div>
+          <div class="number">2</div>
+          <div class="number">3</div>
+        </div>
+    </div>  
+  </div>
+  </div>
+
+</div>
+</div>
+
+  
+</div>
+
+
+  <div id="footer"></div>
+ </body>
+</html>
